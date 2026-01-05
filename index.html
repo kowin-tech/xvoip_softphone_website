@@ -77,8 +77,10 @@
             <p class="description">Make and receive calls directly from your browser. Works with FreeSWITCH, Asterisk, and any PBX with WebSocket support.</p>
             <div class="cta-buttons">
               <a href="#" class="btn btn-primary">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.295-.6.295-.31 0-.47-.145-.54-.32l-1.35-4.48-3.12-.98c-.68-.19-.69-.68.14-.97l12.15-4.68c.56-.19 1.03.15.85.96z"/>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                  <polyline points="7 10 12 15 17 10"/>
+                  <line x1="12" y1="15" x2="12" y2="3"/>
                 </svg>
                 Install from Chrome Web Store
               </a>
@@ -271,7 +273,14 @@
         <div class="step">
           <div class="step-number">1</div>
           <h3>Install the Extension</h3>
-          <p>Click the "Install from Chrome Web Store" button above to add xVoIP to your browser.</p>
+          <a href="#" class="btn btn-primary btn-small">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+              <polyline points="7 10 12 15 17 10"/>
+              <line x1="12" y1="15" x2="12" y2="3"/>
+            </svg>
+            Install from Chrome Web Store
+          </a>
         </div>
         <div class="step">
           <div class="step-number">2</div>
@@ -280,14 +289,13 @@
         </div>
         <div class="step">
           <div class="step-number">3</div>
-          <h3>Add Your SIP Account</h3>
-          <p>Open Settings and enter your SIP server, extension, and password. Works with FreeSWITCH (typically port 7443) or Asterisk (typically port 8089). Check with your server administrator for the correct WebSocket port.</p>
-          <p class="config-note"><small>Note: Port numbers vary by server configuration. Common defaults: FreeSWITCH uses 7443, Asterisk uses 8089. Contact your VoIP provider or check your PBX settings for the correct WSS port.</small></p>
+          <h3>Add Your SIP Account <span class="info-icon" tabindex="0">?<span class="info-tooltip"><strong>Default WebSocket ports:</strong><br>FreeSWITCH: 7443<br>Asterisk: 8089<br><br>Port numbers vary by server configuration. Contact your VoIP provider or check your PBX settings for the correct WSS port.</span></span></h3>
+          <p>Open Settings and enter your SIP server, extension, and password.</p>
         </div>
         <div class="step">
           <div class="step-number">4</div>
           <h3>Start Calling</h3>
-          <p>Click the xVoIP icon to open the dialpad. Enter a number or click any phone number on a webpage to dial.</p>
+          <p>Click the xVoIP phone icon or any phone number on a webpage to dial.</p>
         </div>
       </div>
     </div>

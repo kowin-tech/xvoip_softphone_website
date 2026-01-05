@@ -465,6 +465,11 @@ nav a.btn-coffee:hover {
   background: rgba(33, 150, 243, 0.1);
 }
 
+.btn-small {
+  padding: 10px 18px;
+  font-size: 14px;
+}
+
 /* Features Section */
 .features {
   padding: 80px 0;

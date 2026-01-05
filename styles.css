@@ -677,6 +677,29 @@ nav a.btn-coffee:hover {
   font-size: 14px;
 }
 
+.support-coffee {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.btn-coffee-large {
+  display: inline-block;
+  background: #ffdd00;
+  color: #000;
+  padding: 14px 32px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.2s, box-shadow 0.2s, background 0.2s;
+}
+
+.btn-coffee-large:hover {
+  background: #e5c700;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 221, 0, 0.4);
+}
+
 /* Footer */
 footer {
   background: #333;

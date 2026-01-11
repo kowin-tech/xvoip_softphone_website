@@ -1,0 +1,6 @@
+# Allow all crawlers to access the entire site
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://xvoip.co.za/sitemap.xml
